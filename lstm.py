@@ -2,7 +2,7 @@ import torch.nn as nn
 import torch
 
 class MyLSTM(nn.Module):
-
+    
     def __init__(self,vocab,embed=100,hidden=128,layers=2,out=1,batch_first=True,dropout=0.6,device='cpu'):
         '''
         Initialize LSTM
@@ -15,6 +15,7 @@ class MyLSTM(nn.Module):
         out (int)         : output dimension
         batch_first (bool): if batch is firstin dataset, 'True'
         dropout (float)   : dropout probability [0,1)
+        XYZ
         '''
         super(MyLSTM,self).__init__()
 
