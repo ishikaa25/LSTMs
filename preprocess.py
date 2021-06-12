@@ -23,20 +23,20 @@ def clean(data):
 
   stop = stopwords.words()
   #To lowercase
-  text = [ex.lower() for ex in data]
+  text = data.lower()
 
   #Remove HTML stuff
-  text= [re.sub("(<.*?>)","",ex) for ex in text]  
+  text= re.sub("(<.*?>)","",text) 
   #remove non-ascii and digits
-  text= [re.sub("(\\W|\\d)"," ",ex) for ex in text]  
+  text= re.sub("(\\W|\\d)"," ",text) 
     
   #Remove whitespace
-  text= [ex.strip() for ex in text]
+  text= text.strip()
   #Remove multiple spaces
-  text = [re.sub(' +', ' ',ex) for ex in text]
+  text = re.sub(' +', ' ',text)
 
   #Remove stop words
-  text = list(map(lambda words: ' '.join(word for word in words.split() if word not in stop),text))
+  text = [word for word in text if word not in stop]
 
   return text
 
