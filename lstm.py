@@ -1,5 +1,5 @@
 import torch.nn as nn
-import torch
+#import torch
 
 class MyLSTM(nn.Module):
     
@@ -30,16 +30,16 @@ class MyLSTM(nn.Module):
         self.sig = nn.Sigmoid()
 
 
-    def __initiliaze(self,batch_size):
+    def initiliaze(self,batch_size):
         '''
         Initializes hidden and cell state of first layer to zeroes
 
         Args:
         batch_size (int) : batch size 
         '''
-        weights = next(self.parameters()).data
-        if self.batch_first:
-            hidden_states = (weights.new((self.layers,batch_size,self.hidden).zero.to(self.device)), weights.new((self.layers,batch_size,self.hidden).zero.to(self.device)))
+        weight = next(self.parameters()).data
+        hidden_states = (weight.new(self.layers, batch_size, self.hidden).zero_().to(self.device),
+                      weight.new(self.layers, batch_size, self.hidden).zero_().to(self.device))
 
         return hidden_states
     
@@ -50,7 +50,7 @@ class MyLSTM(nn.Module):
 
         #LSTM
         out, hidden = self.lstm(out,hidden)
-        out = out.contigous().view(-1,self.hidden)
+        out = out.contiguous().view(-1,self.hidden)
 
         #Dense
         out = self.fc(out)
@@ -59,4 +59,3 @@ class MyLSTM(nn.Module):
         out = out[:,-1]
 
         return out, hidden
-
