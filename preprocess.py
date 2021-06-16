@@ -2,43 +2,18 @@ import re
 import numpy as np
 import nltk
 from nltk.corpus import stopwords
-nltk.download('punkt')
-nltk.download('stopwords')
+# nltk.download('punkt')
+# nltk.download('stopwords')
 from collections import Counter
 
+def clean(txt):
+    stop = stopwords.words()
+    #Remove punctuations
+    txt = re.sub(r'[^\w\s]', '', str(txt).lower())
+    text = txt.split()
+    txt = [word for word in text if word not in stop]
+    return txt
 
-
-def clean(data):
-  '''
-  Pre-processes text data
-  1. Lowercasing
-  2. Removal of HTML parts
-  3. Removal of Non-ASCII and Digits characters
-  4. Removal of white and multiple spacing
-  5. Removal of stop-words
-
-  Args:
-  data (numpy.ndarray) : Array containing (a list of) textual data 
-  '''
-
-  stop = stopwords.words()
-  #To lowercase
-  text = data.lower()
-
-  #Remove HTML stuff
-  text= re.sub("(<.*?>)","",text) 
-  #remove non-ascii and digits
-  text= re.sub("(\\W|\\d)"," ",text) 
-    
-  #Remove whitespace
-  text= text.strip()
-  #Remove multiple spaces
-  text = re.sub(' +', ' ',text)
-
-  #Remove stop words
-  text = [word for word in text if word not in stop]
-
-  return text
 
 def count_tokenize(X,min_occur=100):
     '''
