@@ -1,6 +1,7 @@
 import numpy as np
 import re
 
+
 def clean(df,nlp,col='Story',get_features=True):
     '''
     Remove punctations and stopwords, and tokenize
@@ -12,14 +13,17 @@ def clean(df,nlp,col='Story',get_features=True):
     col : Column name that has the docs
     '''
     # spacy_stopwords = nlp.Defaults.stop_words  
+    #Sentence
     df['Sentences']  = df[col].apply(lambda x: [sent.text for sent in nlp(x).sents])
-    # [token.text for token in nlp(doc) if not token.is_stop]
+    #Stopwords
+    df['Cleaned']  = df[col].apply(lambda row: " ".join(token.text for token in nlp(row) if not token.is_stop))
+    #Punctuations  
+    df['Cleaned']  = df['Cleaned'].apply(lambda x: " ".join(re.sub(r'[^a-zA-z\s]', '', str(token.text)) for token in nlp(x)))
+    #Whitespaces
+    df['Cleaned']  = df['Cleaned'].apply(lambda row: re.sub(' +', ' ',row))
+    #Lemma
+    df['Cleaned'] = df["Cleaned"].apply(lambda row: " ".join([w.lemma_ for w in nlp(row)]))
     
-    # df['Cleaned']  = df[col].apply(lambda x: " ".join(token.text for token in nlp(x) if token.text not in spacy_stopwords))    
-    df['Cleaned']  = df[col].apply(lambda x: " ".join(token.text for token in nlp(x) if not token.is_punct))
-    df['Cleaned']  = df['Cleaned'].apply(lambda row: " ".join(token.text for token in nlp(row) if not token.is_stop))  
-    
-    df['Cleaned']  = df['Cleaned'].apply(lambda row: re.sub(' +', ' ',row)) 
     df['Tokenized'] = [nlp(text) for text in df.Cleaned]
     # df["Tokenized"] = [nlp(w).lemma_ for w in df['Tokenized']]
 
