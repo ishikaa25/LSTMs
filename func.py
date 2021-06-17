@@ -16,7 +16,7 @@ def clean(df,nlp,col='Story',get_features=True):
     #Sentence
     df['Sentences']  = df[col].apply(lambda x: [sent.text for sent in nlp(x).sents])
     #Stopwords
-    df['Cleaned']  = df[col].apply(lambda row: " ".join(token.text for token in nlp(row) if not token.is_stop))
+    df['Cleaned']  = df[col].apply(lambda row: " ".join(token.text.lower() for token in nlp(row) if not token.is_stop))
     #Punctuations  
     df['Cleaned']  = df['Cleaned'].apply(lambda x: " ".join(re.sub(r'[^a-zA-z\s]', '', str(token.text)) for token in nlp(x)))
     #Whitespaces
@@ -28,8 +28,12 @@ def clean(df,nlp,col='Story',get_features=True):
     # df["Tokenized"] = [nlp(w).lemma_ for w in df['Tokenized']]
 
     if get_features:
-        df['mean_sen_length']  = df['Sentences'].apply(lambda x: np.mean([len(i) for i in x]))
+        df['num_sen'] = df['Sentences'].apply(lambda x: len(x))
         df['num_tokens'] = [len(token) for token in df.Tokenized]
+        df['mean_sen_length']  = df['Sentences'].apply(lambda x: np.mean([len(i) for i in x]))
+        df['mean_word_length']  = df['Tokenized'].apply(lambda x: np.mean([len(i) for i in x]))
+        
+
 
     # df.drop('Cleaned',axis=1,inplace=True)
 
