@@ -1,0 +1,816 @@
+paragraphId	sentenceID	tokenId	beginOffset	endOffset	whitespaceAfter	headTokenId	originalWord	normalizedWord	lemma	pos	ner	deprel	inQuotation	characterId	supersense
+0	0	0	0	4	S	9	Jack	Jack	Jack	NNP	PERSON	nsubj	O	0	B-noun.person
+0	0	1	5	8	S	0	and	and	and	CC	O	cc	O	-1	O
+0	0	2	9	12	S	3	the	the	the	DT	O	det	O	-1	O
+0	0	3	13	22	N	0	Beanstalk	Beanstalk	Beanstalk	NNP	O	conj	O	-1	O
+1	0	4	23	27	S	9	Once	Once	once	IN	DATE	prep	O	-1	O
+1	0	5	28	32	S	4	upon	upon	upon	IN	O	dep	O	-1	O
+1	0	6	33	34	S	7	a	a	a	DT	O	det	O	-1	O
+1	0	7	35	39	S	5	time	time	time	NN	O	pobj	O	-1	B-noun.time
+1	0	8	40	45	S	7	there	there	there	RB	O	advmod	O	-1	O
+1	0	9	46	51	S	-1	lived	lived	live	VBD	O	null	O	-1	B-verb.stative
+1	0	10	52	53	S	12	a	a	a	DT	O	det	O	-1	O
+1	0	11	54	58	S	12	poor	poor	poor	JJ	O	amod	O	-1	O
+1	0	12	59	64	S	9	widow	widow	widow	NN	O	dobj	O	-1	B-noun.person
+1	0	13	65	68	S	12	and	and	and	CC	O	cc	O	-1	O
+1	0	14	69	72	S	16	her	her	she	PRP$	O	poss	O	-1	O
+1	0	15	73	76	S	16	son	son	son	NN	O	nn	O	-1	B-noun.person
+1	0	16	77	81		12	Jack	Jack	Jack	NNP	PERSON	conj	O	0	B-noun.person
+1	0	17	81	82	S	9	.	.	.	.	O	punct	O	-1	O
+1	1	18	83	86	S	19	One	One	one	CD	DURATION	num	O	-1	O
+1	1	19	87	90		24	day	day	day	NN	DURATION	tmod	O	-1	B-noun.time
+1	1	20	90	91	S	24	,	,	,	,	O	punct	O	-1	O
+1	1	21	92	96		23	Jack	Jack	Jack	NNP	PERSON	poss	O	0	B-noun.person
+1	1	22	96	98	S	21	’s	’s	’s	POS	O	possessive	O	-1	O
+1	1	23	99	105	S	24	mother	mother	mother	NN	O	nsubj	O	-1	B-noun.person
+1	1	24	106	110	S	-1	told	told	tell	VBD	O	null	O	-1	B-verb.communication
+1	1	25	111	114	S	24	him	him	he	PRP	O	dobj	O	0	O
+1	1	26	115	117	S	27	to	to	to	TO	O	aux	O	-1	O
+1	1	27	118	122	S	24	sell	sell	sell	VB	O	xcomp	O	-1	B-verb.possession
+1	1	28	123	128	S	30	their	their	they	PRP$	O	poss	O	-1	O
+1	1	29	129	133	S	30	only	only	only	JJ	O	amod	O	-1	O
+1	1	30	134	137		27	cow	cow	cow	NN	O	dobj	O	-1	B-noun.animal
+1	1	31	137	138	S	24	.	.	.	.	O	punct	O	-1	O
+1	2	32	139	143	S	33	Jack	Jack	Jack	NNP	PERSON	nsubj	O	0	B-noun.person
+1	2	33	144	148	S	-1	went	went	go	VBD	O	null	O	-1	B-verb.motion
+1	2	34	149	151	S	33	to	to	to	IN	O	prep	O	-1	O
+1	2	35	152	155	S	36	the	the	the	DT	O	det	O	-1	O
+1	2	36	156	162	S	34	market	market	market	NN	O	pobj	O	-1	B-noun.act
+1	2	37	163	166	S	33	and	and	and	CC	O	cc	O	-1	O
+1	2	38	167	169	S	42	on	on	on	IN	O	prep	O	-1	O
+1	2	39	170	173	S	40	the	the	the	DT	O	det	O	-1	O
+1	2	40	174	177	S	38	way	way	way	NN	O	pobj	O	-1	B-noun.attribute
+1	2	41	178	180	S	42	he	he	he	PRP	O	nsubj	O	0	O
+1	2	42	181	184	S	33	met	met	meet	VBD	O	conj	O	-1	B-verb.motion
+1	2	43	185	186	S	44	a	a	a	DT	O	det	O	-1	O
+1	2	44	187	190	S	42	man	man	man	NN	O	dobj	O	-1	B-noun.person
+1	2	45	191	194	S	46	who	who	who	WP	O	nsubj	O	-1	O
+1	2	46	195	201	S	44	wanted	wanted	want	VBD	O	rcmod	O	-1	B-verb.emotion
+1	2	47	202	204	S	48	to	to	to	TO	O	aux	O	-1	O
+1	2	48	205	208	S	46	buy	buy	buy	VB	O	xcomp	O	-1	B-verb.possession
+1	2	49	209	212	S	50	his	his	he	PRP$	O	poss	O	0	O
+1	2	50	213	216		48	cow	cow	cow	NN	O	dobj	O	-1	B-noun.animal
+1	2	51	216	217	S	33	.	.	.	.	O	punct	O	-1	O
+1	3	52	218	222	S	53	Jack	Jack	Jack	NNP	PERSON	nsubj	O	0	B-noun.person
+1	3	53	223	228		-1	asked	asked	ask	VBD	O	null	O	-1	B-verb.communication
+1	3	54	228	229	S	53	,	,	,	,	O	punct	O	-1	O
+1	3	55	230	231		53	“	“	``	``	O	punct	B-QUOTE	-1	O
+1	3	56	231	235	S	59	What	What	what	WP	O	nsubj	I-QUOTE	-1	O
+1	3	57	236	240	S	59	will	will	will	MD	O	aux	I-QUOTE	-1	O
+1	3	58	241	244	S	59	you	you	you	PRP	O	nsubj	I-QUOTE	-1	O
+1	3	59	245	249	S	53	give	give	give	VB	O	ccomp	I-QUOTE	-1	B-verb.possession
+1	3	60	250	252	S	59	me	me	I	PRP	O	dobj	I-QUOTE	-1	O
+1	3	61	253	255	S	59	in	in	in	IN	O	prep	I-QUOTE	-1	O
+1	3	62	256	262	S	61	return	return	return	NN	O	pobj	I-QUOTE	-1	B-noun.communication
+1	3	63	263	266	S	62	for	for	for	IN	O	prep	I-QUOTE	-1	O
+1	3	64	267	269	S	65	my	my	my	PRP$	O	poss	I-QUOTE	-1	O
+1	3	65	270	273		63	cow	cow	cow	NN	O	pobj	I-QUOTE	-1	B-noun.animal
+1	3	66	273	274		53	?	?	?	.	O	punct	I-QUOTE	-1	O
+1	3	67	274	275	S	53	”	”	''	''	O	punct	I-QUOTE	-1	O
+1	4	68	276	279	S	69	The	The	the	DT	O	det	O	-1	O
+1	4	69	280	283	S	70	man	man	man	NN	O	nsubj	O	-1	B-noun.person
+1	4	70	284	292		-1	answered	answered	answer	VBD	O	null	O	-1	B-verb.communication
+1	4	71	292	293	S	70	,	,	,	,	O	punct	O	-1	O
+1	4	72	294	295		75	“	“	``	``	O	punct	B-QUOTE	-1	O
+1	4	73	295	296	S	75	I	I	I	PRP	O	nsubj	I-QUOTE	-1	O
+1	4	74	297	301	S	75	will	will	will	MD	O	aux	I-QUOTE	-1	O
+1	4	75	302	306	S	70	give	give	give	VB	O	ccomp	I-QUOTE	-1	B-verb.possession
+1	4	76	307	310	S	75	you	you	you	PRP	O	iobj	I-QUOTE	-1	O
+1	4	77	311	315	S	79	five	five	five	CD	NUMBER	num	I-QUOTE	-1	O
+1	4	78	316	321	S	79	magic	magic	magic	JJ	O	amod	I-QUOTE	-1	O
+1	4	79	322	327		75	beans	beans	bean	NNS	O	dobj	I-QUOTE	-1	B-noun.food
+1	4	80	327	328		70	!	!	!	.	O	punct	I-QUOTE	-1	O
+1	4	81	328	329	S	70	”	”	''	''	O	punct	I-QUOTE	-1	O
+1	5	82	330	334	S	83	Jack	Jack	Jack	NNP	PERSON	nsubj	O	0	B-noun.person
+1	5	83	335	339	S	-1	took	took	take	VBD	O	null	O	-1	B-verb.motion
+1	5	84	340	343	S	86	the	the	the	DT	O	det	O	-1	O
+1	5	85	344	349	S	86	magic	magic	magic	NN	O	nn	O	-1	B-noun.cognition
+1	5	86	350	355	S	83	beans	beans	bean	NNS	O	dobj	O	-1	B-noun.food
+1	5	87	356	359	S	83	and	and	and	CC	O	cc	O	-1	O
+1	5	88	360	364	S	83	gave	gave	give	VBD	O	conj	O	-1	B-verb.possession
+1	5	89	365	368	S	90	the	the	the	DT	O	det	O	-1	O
+1	5	90	369	372	S	88	man	man	man	NN	O	iobj	O	-1	B-noun.person
+1	5	91	373	376	S	92	the	the	the	DT	O	det	O	-1	O
+1	5	92	377	380		88	cow	cow	cow	NN	O	dobj	O	-1	B-noun.animal
+1	5	93	380	381	S	83	.	.	.	.	O	punct	O	-1	O
+1	6	94	382	385	S	105	But	But	but	CC	O	cc	O	-1	O
+1	6	95	386	390	S	97	when	when	when	WRB	O	advmod	O	-1	O
+1	6	96	391	393	S	97	he	he	he	PRP	O	nsubj	O	0	O
+1	6	97	394	401	S	105	reached	reached	reach	VBD	O	dep	O	-1	B-verb.motion
+1	6	98	402	406		97	home	home	home	RB	O	advmod	O	-1	O
+1	6	99	406	407	S	105	,	,	,	,	O	punct	O	-1	O
+1	6	100	408	412		102	Jack	Jack	Jack	NNP	PERSON	poss	O	0	B-noun.person
+1	6	101	412	414	S	100	’s	’s	’s	POS	O	possessive	O	-1	O
+1	6	102	415	421	S	105	mother	mother	mother	NN	O	nsubj	O	-1	B-noun.person
+1	6	103	422	425	S	105	was	was	be	VBD	O	cop	O	-1	B-verb.stative
+1	6	104	426	430	S	105	very	very	very	RB	O	advmod	O	-1	O
+1	6	105	431	436		-1	angry	angry	angry	JJ	O	null	O	-1	O
+1	6	106	436	437	S	105	.	.	.	.	O	punct	O	-1	O
+1	7	107	438	441	S	108	She	She	she	PRP	O	nsubj	O	-1	O
+1	7	108	442	446		-1	said	said	say	VBD	O	null	O	-1	B-verb.communication
+1	7	109	446	447	S	108	,	,	,	,	O	punct	O	-1	O
+1	7	110	448	449		108	“	“	``	``	O	punct	B-QUOTE	-1	O
+1	7	111	449	452	S	112	You	You	you	PRP	O	nsubj	I-QUOTE	-1	O
+1	7	112	453	457		108	fool	fool	fool	VB	O	ccomp	I-QUOTE	-1	O
+1	7	113	457	458	S	108	!	!	!	.	O	punct	I-QUOTE	-1	O
+1	8	114	459	461	S	115	He	He	he	PRP	O	nsubj	I-QUOTE	0	O
+1	8	115	462	466	S	-1	took	took	take	VBD	O	null	I-QUOTE	-1	B-verb.contact
+1	8	116	467	471	S	115	away	away	away	RB	O	advmod	I-QUOTE	-1	O
+1	8	117	472	476	S	118	your	your	you	PRP$	O	poss	I-QUOTE	-1	O
+1	8	118	477	480	S	115	cow	cow	cow	NN	O	dobj	I-QUOTE	-1	B-noun.animal
+1	8	119	481	484	S	115	and	and	and	CC	O	cc	I-QUOTE	-1	O
+1	8	120	485	489	S	115	gave	gave	give	VBD	O	conj	I-QUOTE	-1	B-verb.possession
+1	8	121	490	493	S	120	you	you	you	PRP	O	iobj	I-QUOTE	-1	O
+1	8	122	494	498	S	123	some	some	some	DT	O	det	I-QUOTE	-1	O
+1	8	123	499	504		120	beans	beans	bean	NNS	O	dobj	I-QUOTE	-1	B-noun.food
+1	8	124	504	505		115	!	!	!	.	O	punct	I-QUOTE	-1	O
+1	8	125	505	506	S	115	”	”	''	''	O	punct	I-QUOTE	-1	O
+1	9	126	507	510	S	127	She	She	she	PRP	O	nsubj	O	-1	O
+1	9	127	511	516	S	-1	threw	threw	throw	VBD	O	null	O	-1	B-verb.contact
+1	9	128	517	520	S	129	the	the	the	DT	O	det	O	-1	O
+1	9	129	521	526	S	127	beans	beans	bean	NNS	O	dobj	O	-1	B-noun.food
+1	9	130	527	530	S	127	out	out	out	IN	O	prep	O	-1	O
+1	9	131	531	533	S	130	of	of	of	IN	O	dep	O	-1	O
+1	9	132	534	537	S	133	the	the	the	DT	O	det	O	-1	O
+1	9	133	538	544		131	window	window	window	NN	O	pobj	O	-1	B-noun.artifact
+1	9	134	544	545	S	127	.	.	.	.	O	punct	O	-1	O
+1	10	135	546	550	S	138	Jack	Jack	Jack	NNP	PERSON	nsubj	O	0	B-noun.person
+1	10	136	551	554	S	138	was	was	be	VBD	O	cop	O	-1	B-verb.stative
+1	10	137	555	559	S	138	very	very	very	RB	O	advmod	O	-1	O
+1	10	138	560	563	S	-1	sad	sad	sad	JJ	O	null	O	-1	O
+1	10	139	564	567	S	138	and	and	and	CC	O	cc	O	-1	O
+1	10	140	568	572	S	138	went	went	go	VBD	O	conj	O	-1	B-verb.motion
+1	10	141	573	575	S	140	to	to	to	IN	O	prep	O	-1	O
+1	10	142	576	581	S	141	sleep	sleep	sleep	NN	O	pobj	O	-1	B-noun.state
+1	10	143	582	589	S	140	without	without	without	IN	O	prep	O	-1	O
+1	10	144	590	596		143	dinner	dinner	dinner	NN	O	pobj	O	-1	B-noun.food
+1	10	145	596	597	NN	138	.	.	.	.	O	punct	O	-1	O
+2	11	146	599	602	S	148	The	The	the	DT	DATE	det	O	-1	O
+2	11	147	603	607	S	148	next	next	next	JJ	DATE	amod	O	-1	O
+2	11	148	608	611		165	day	day	day	NN	DATE	nsubj	O	-1	B-noun.time
+2	11	149	611	612	S	148	,	,	,	,	O	punct	O	-1	O
+2	11	150	613	617	S	152	when	when	when	WRB	O	advmod	O	-1	O
+2	11	151	618	622	S	152	Jack	Jack	Jack	NNP	PERSON	nsubj	O	0	B-noun.person
+2	11	152	623	627	S	165	woke	woke	wake	VBD	O	dep	O	-1	B-verb.body
+2	11	153	628	630	S	152	up	up	up	RP	O	prt	O	-1	O
+2	11	154	631	633	S	152	in	in	in	IN	O	prep	O	-1	O
+2	11	155	634	637	S	156	the	the	the	DT	O	det	O	-1	O
+2	11	156	638	645	S	154	morning	morning	morning	NN	TIME	pobj	O	-1	B-noun.time
+2	11	157	646	649	S	152	and	and	and	CC	O	cc	O	-1	O
+2	11	158	650	656	S	152	looked	looked	look	VBD	O	conj	O	-1	B-verb.perception
+2	11	159	657	660	S	158	out	out	out	IN	O	acomp	O	-1	O
+2	11	160	661	663	S	159	of	of	of	IN	O	dep	O	-1	O
+2	11	161	664	667	S	162	the	the	the	DT	O	det	O	-1	O
+2	11	162	668	674		160	window	window	window	NN	O	pobj	O	-1	B-noun.artifact
+2	11	163	674	675	S	165	,	,	,	,	O	punct	O	-1	O
+2	11	164	676	678	S	165	he	he	he	PRP	O	nsubj	O	0	O
+2	11	165	679	682	S	-1	saw	saw	see	VBD	O	null	O	-1	B-verb.perception
+2	11	166	683	687	S	171	that	that	that	IN	O	complm	O	-1	O
+2	11	167	688	689	S	169	a	a	a	DT	O	det	O	-1	O
+2	11	168	690	694	S	169	huge	huge	huge	JJ	O	amod	O	-1	O
+2	11	169	695	704	S	171	beanstalk	beanstalk	beanstalk	NN	O	nsubj	O	-1	B-noun.plant
+2	11	170	705	708	S	171	had	had	have	VBD	O	aux	O	-1	O
+2	11	171	709	714	S	165	grown	grown	grow	VBN	O	ccomp	O	-1	B-verb.change
+2	11	172	715	719	S	171	from	from	from	IN	O	prep	O	-1	O
+2	11	173	720	723	S	175	his	his	he	PRP$	O	poss	O	0	O
+2	11	174	724	729	S	175	magic	magic	magic	NN	O	nn	O	-1	B-noun.cognition
+2	11	175	730	735		172	beans	beans	bean	NNS	O	pobj	O	-1	B-noun.food
+2	11	176	735	736	S	165	!	!	!	.	O	punct	O	-1	O
+2	12	177	737	739	S	178	He	He	he	PRP	O	nsubj	O	0	O
+2	12	178	740	747	S	-1	climbed	climbed	climb	VBD	O	null	O	-1	B-verb.motion
+2	12	179	748	750	S	178	up	up	up	IN	O	prep	O	-1	O
+2	12	180	751	754	S	181	the	the	the	DT	O	det	O	-1	O
+2	12	181	755	764	S	179	beanstalk	beanstalk	beanstalk	NN	O	pobj	O	-1	B-noun.plant
+2	12	182	765	768	S	178	and	and	and	CC	O	cc	O	-1	O
+2	12	183	769	776	S	178	reached	reached	reach	VBD	O	conj	O	-1	B-verb.motion
+2	12	184	777	778	S	185	a	a	a	DT	O	det	O	-1	O
+2	12	185	779	786	S	183	kingdom	kingdom	kingdom	NN	O	dobj	O	-1	B-noun.state
+2	12	186	787	789	S	185	in	in	in	IN	O	prep	O	-1	O
+2	12	187	790	793	S	188	the	the	the	DT	O	det	O	-1	O
+2	12	188	794	797		186	sky	sky	sky	NN	O	pobj	O	-1	B-noun.object
+2	12	189	797	798	S	178	.	.	.	.	O	punct	O	-1	O
+2	13	190	799	804	S	191	There	There	there	RB	O	advmod	O	-1	O
+2	13	191	805	810	S	-1	lived	lived	live	VBD	O	null	O	-1	B-verb.stative
+2	13	192	811	812	S	193	a	a	a	DT	O	det	O	-1	O
+2	13	193	813	818	S	191	giant	giant	giant	NN	O	dobj	O	-1	B-noun.animal
+2	13	194	819	822	S	193	and	and	and	CC	O	cc	O	-1	O
+2	13	195	823	826	S	196	his	his	he	PRP$	O	poss	O	0	O
+2	13	196	827	831		193	wife	wife	wife	NN	O	conj	O	-1	B-noun.person
+2	13	197	831	832	S	191	.	.	.	.	O	punct	O	-1	O
+2	14	198	833	837	S	199	Jack	Jack	Jack	NNP	PERSON	nsubj	O	0	B-noun.person
+2	14	199	838	842	S	-1	went	went	go	VBD	O	null	O	-1	B-verb.motion
+2	14	200	843	849	S	199	inside	inside	inside	IN	O	prep	O	-1	O
+2	14	201	850	853	S	202	the	the	the	DT	O	det	O	-1	O
+2	14	202	854	859	S	200	house	house	house	NN	O	pobj	O	-1	B-noun.artifact
+2	14	203	860	863	S	199	and	and	and	CC	O	cc	O	-1	O
+2	14	204	864	869	S	199	found	found	find	VBD	O	conj	O	-1	B-verb.possession
+2	14	205	870	873	S	206	the	the	the	DT	O	det	O	-1	O
+2	14	206	874	879		208	giant	giant	giant	NN	O	poss	O	-1	B-noun.animal
+2	14	207	879	881	S	206	’s	’s	’s	POS	O	possessive	O	-1	O
+2	14	208	882	886	S	204	wife	wife	wife	NN	O	dobj	O	-1	B-noun.person
+2	14	209	887	889	S	204	in	in	in	IN	O	prep	O	-1	O
+2	14	210	890	893	S	211	the	the	the	DT	O	det	O	-1	O
+2	14	211	894	901		209	kitchen	kitchen	kitchen	NN	O	pobj	O	-1	B-noun.artifact
+2	14	212	901	902	S	199	.	.	.	.	O	punct	O	-1	O
+2	15	213	903	907	S	214	Jack	Jack	Jack	NNP	PERSON	nsubj	O	0	B-noun.person
+2	15	214	908	912		-1	said	said	say	VBD	O	null	O	-1	B-verb.communication
+2	15	215	912	913	S	214	,	,	,	,	O	punct	O	-1	O
+2	15	216	914	915		214	“	“	``	``	O	punct	B-QUOTE	-1	O
+2	15	217	915	920	S	220	Could	Could	could	MD	O	aux	I-QUOTE	-1	O
+2	15	218	921	924	S	220	you	you	you	PRP	O	nsubj	I-QUOTE	-1	O
+2	15	219	925	931	S	220	please	please	please	UH	O	dep	I-QUOTE	-1	O
+2	15	220	932	936	S	214	give	give	give	VB	O	ccomp	I-QUOTE	-1	B-verb.possession
+2	15	221	937	939	S	220	me	me	I	PRP	O	iobj	I-QUOTE	-1	O
+2	15	222	940	949	S	220	something	something	something	NN	O	dobj	I-QUOTE	-1	O
+2	15	223	950	952	S	224	to	to	to	TO	O	aux	I-QUOTE	-1	O
+2	15	224	953	956		222	eat	eat	eat	VB	O	infmod	I-QUOTE	-1	B-verb.consumption
+2	15	225	956	957	S	214	?	?	?	.	O	punct	I-QUOTE	-1	O
+2	16	226	958	959	S	229	I	I	I	PRP	O	nsubj	I-QUOTE	-1	O
+2	16	227	960	962	S	229	am	am	be	VBP	O	cop	I-QUOTE	-1	B-verb.stative
+2	16	228	963	965	S	229	so	so	so	RB	O	advmod	I-QUOTE	-1	O
+2	16	229	966	972		-1	hungry	hungry	hungry	JJ	O	null	I-QUOTE	-1	O
+2	16	230	972	973		229	!	!	!	.	O	punct	I-QUOTE	-1	O
+2	16	231	973	974	S	229	”	”	''	''	O	punct	I-QUOTE	-1	O
+2	17	232	975	978	S	234	The	The	the	DT	O	det	O	-1	O
+2	17	233	979	983	S	234	kind	kind	kind	JJ	O	amod	O	-1	O
+2	17	234	984	988	S	235	wife	wife	wife	NN	O	nsubj	O	-1	B-noun.person
+2	17	235	989	993	S	-1	gave	gave	give	VBD	O	null	O	-1	B-verb.possession
+2	17	236	994	997	S	235	him	him	he	PRP	O	iobj	O	0	O
+2	17	237	998	1003	S	235	bread	bread	bread	NN	O	dobj	O	-1	B-noun.food
+2	17	238	1004	1007	S	237	and	and	and	CC	O	cc	O	-1	O
+2	17	239	1008	1012	S	240	some	some	some	DT	O	det	O	-1	O
+2	17	240	1013	1017		237	milk	milk	milk	NN	O	conj	O	-1	B-noun.food
+2	17	241	1017	1018	NN	235	.	.	.	.	O	punct	O	-1	O
+3	18	242	1020	1025	S	245	While	While	while	IN	O	mark	O	-1	O
+3	18	243	1026	1028	S	245	he	he	he	PRP	O	nsubj	O	0	O
+3	18	244	1029	1032	S	245	was	was	be	VBD	O	aux	O	-1	O
+3	18	245	1033	1039		249	eating	eating	eat	VBG	O	advcl	O	-1	B-verb.consumption
+3	18	246	1039	1040	S	249	,	,	,	,	O	punct	O	-1	O
+3	18	247	1041	1044	S	248	the	the	the	DT	O	det	O	-1	O
+3	18	248	1045	1050	S	249	giant	giant	giant	NN	O	nsubj	O	-1	B-noun.animal
+3	18	249	1051	1055	S	-1	came	came	come	VBD	O	null	O	-1	B-verb.motion
+3	18	250	1056	1060		249	home	home	home	RB	O	advmod	O	-1	O
+3	18	251	1060	1061	S	249	.	.	.	.	O	punct	O	-1	O
+3	19	252	1062	1065	S	253	The	The	the	DT	O	det	O	-1	O
+3	19	253	1066	1071	S	256	giant	giant	giant	NN	O	nsubj	O	-1	B-noun.animal
+3	19	254	1072	1075	S	256	was	was	be	VBD	O	cop	O	-1	B-verb.stative
+3	19	255	1076	1080	S	256	very	very	very	RB	O	advmod	O	-1	O
+3	19	256	1081	1084	S	-1	big	big	big	JJ	O	null	O	-1	O
+3	19	257	1085	1088	S	256	and	and	and	CC	O	cc	O	-1	O
+3	19	258	1089	1095	S	256	looked	looked	look	VBD	O	conj	O	-1	B-verb.perception
+3	19	259	1096	1100	S	260	very	very	very	RB	O	advmod	O	-1	O
+3	19	260	1101	1109		258	fearsome	fearsome	fearsome	JJ	O	acomp	O	-1	O
+3	19	261	1109	1110	S	256	.	.	.	.	O	punct	O	-1	O
+3	20	262	1111	1115	S	264	Jack	Jack	Jack	NNP	PERSON	nsubjpass	O	0	B-noun.person
+3	20	263	1116	1119	S	264	was	was	be	VBD	O	auxpass	O	-1	O
+3	20	264	1120	1129	S	-1	terrified	terrified	terrify	VBN	O	null	O	-1	B-verb.emotion
+3	20	265	1130	1133	S	264	and	and	and	CC	O	cc	O	-1	O
+3	20	266	1134	1138	S	264	went	went	go	VBD	O	conj	O	-1	B-verb.motion
+3	20	267	1139	1142	S	264	and	and	and	CC	O	cc	O	-1	O
+3	20	268	1143	1146	S	264	hid	hid	hide	VBD	O	conj	O	-1	B-verb.perception
+3	20	269	1147	1153		268	inside	inside	inside	RB	O	advmod	O	-1	O
+3	20	270	1153	1154	S	264	.	.	.	.	O	punct	O	-1	O
+3	21	271	1155	1158	S	272	The	The	the	DT	O	det	O	-1	O
+3	21	272	1159	1164	S	273	giant	giant	giant	NN	O	nsubj	O	-1	B-noun.animal
+3	21	273	1165	1170		-1	cried	cried	cry	VBD	O	null	O	-1	O
+3	21	274	1170	1171	S	273	,	,	,	,	O	punct	O	-1	O
+3	21	275	1172	1173		285	“	“	``	``	O	punct	B-QUOTE	-1	O
+3	21	276	1173	1176		285	Fee	Fee	fee	NN	O	dep	I-QUOTE	-1	O
+3	21	277	1176	1177		276	-	-	-	HYPH	O	dep	I-QUOTE	-1	O
+3	21	278	1177	1179		279	fi	fi	fi	NN	O	nn	I-QUOTE	-1	O
+3	21	279	1179	1180		277	-	-	-	HYPH	O	dobj	I-QUOTE	-1	O
+3	21	280	1180	1182		279	fo	fo	fo	IN	O	prep	I-QUOTE	-1	O
+3	21	281	1182	1183		282	-	-	-	HYPH	O	amod	I-QUOTE	-1	O
+3	21	282	1183	1186		280	fum	fum	fum	NN	O	pobj	I-QUOTE	-1	O
+3	21	283	1186	1187	S	285	,	,	,	,	O	punct	I-QUOTE	-1	O
+3	21	284	1188	1189	S	285	I	I	I	PRP	O	nsubj	I-QUOTE	-1	O
+3	21	285	1190	1195	S	273	smell	smell	smell	VBP	O	ccomp	I-QUOTE	-1	B-verb.perception
+3	21	286	1196	1199	S	287	the	the	the	DT	O	det	I-QUOTE	-1	O
+3	21	287	1200	1205	S	285	blood	blood	blood	NN	O	dobj	I-QUOTE	-1	B-noun.body
+3	21	288	1206	1208	S	287	of	of	of	IN	O	prep	I-QUOTE	-1	O
+3	21	289	1209	1211	S	290	an	an	a	DT	O	det	I-QUOTE	-1	O
+3	21	290	1212	1222		288	Englishman	Englishman	Englishman	NNP	NATIONALITY	pobj	I-QUOTE	-1	B-noun.person
+3	21	291	1222	1223	S	273	.	.	.	.	O	punct	I-QUOTE	-1	O
+3	22	292	1224	1226	S	294	Be	Be	be	VB	O	cop	I-QUOTE	-1	O
+3	22	293	1227	1229	S	294	he	he	he	PRP	O	nsubj	I-QUOTE	-1	O
+3	22	294	1230	1235		303	alive	alive	alive	JJ	O	ccomp	I-QUOTE	-1	O
+3	22	295	1235	1236	S	294	,	,	,	,	O	punct	I-QUOTE	-1	O
+3	22	296	1237	1239	S	294	or	or	or	CC	O	cc	I-QUOTE	-1	O
+3	22	297	1240	1242	S	299	be	be	be	VB	O	cop	I-QUOTE	-1	B-verb.stative
+3	22	298	1243	1245	S	299	he	he	he	PRP	O	nsubj	I-QUOTE	-1	O
+3	22	299	1246	1250		294	dead	dead	dead	JJ	O	conj	I-QUOTE	-1	O
+3	22	300	1250	1251	S	303	,	,	,	,	O	punct	I-QUOTE	-1	O
+3	22	301	1252	1253		303	I	I	I	PRP	O	nsubj	I-QUOTE	-1	O
+3	22	302	1253	1256	S	303	’ll	’ll	’ll	MD	O	aux	I-QUOTE	-1	O
+3	22	303	1257	1262	S	-1	grind	grind	grind	VB	O	null	I-QUOTE	-1	B-verb.contact
+3	22	304	1263	1266	S	305	his	his	he	PRP$	O	poss	I-QUOTE	-1	O
+3	22	305	1267	1272	S	303	bones	bones	bone	NNS	O	dobj	I-QUOTE	-1	B-noun.body
+3	22	306	1273	1275	S	307	to	to	to	TO	O	aux	I-QUOTE	-1	O
+3	22	307	1276	1280	S	303	make	make	make	VB	O	xcomp	I-QUOTE	-1	B-verb.social
+3	22	308	1281	1283	S	309	my	my	my	PRP$	O	poss	I-QUOTE	-1	O
+3	22	309	1284	1289		307	bread	bread	bread	NN	O	dobj	I-QUOTE	-1	B-noun.food
+3	22	310	1289	1290		303	!	!	!	.	O	punct	I-QUOTE	-1	O
+3	22	311	1290	1291	S	303	”	”	''	''	O	punct	I-QUOTE	-1	O
+3	23	312	1292	1295	S	313	The	The	the	DT	O	det	O	-1	O
+3	23	313	1296	1300	S	314	wife	wife	wife	NN	O	nsubj	O	-1	B-noun.person
+3	23	314	1301	1305		-1	said	said	say	VBD	O	null	O	-1	B-verb.communication
+3	23	315	1305	1306	S	314	,	,	,	,	O	punct	O	-1	O
+3	23	316	1307	1308		314	“	“	``	``	O	punct	B-QUOTE	-1	O
+3	23	317	1308	1313	S	318	There	There	there	EX	O	expl	I-QUOTE	-1	O
+3	23	318	1314	1316	S	314	is	is	be	VBZ	O	ccomp	I-QUOTE	-1	B-verb.stative
+3	23	319	1317	1319	S	320	no	no	no	DT	O	det	I-QUOTE	-1	O
+3	23	320	1320	1323	S	318	boy	boy	boy	NN	O	nsubj	I-QUOTE	-1	B-noun.person
+3	23	321	1324	1326	S	318	in	in	in	IN	O	prep	I-QUOTE	-1	O
+3	23	322	1327	1331		321	here	here	here	RB	O	pobj	I-QUOTE	-1	O
+3	23	323	1331	1332		314	!	!	!	.	O	punct	I-QUOTE	-1	O
+3	23	324	1332	1333	S	314	”	”	''	''	O	punct	I-QUOTE	-1	O
+3	24	325	1334	1336		329	So	So	so	RB	O	advmod	O	-1	O
+3	24	326	1336	1337	S	329	,	,	,	,	O	punct	O	-1	O
+3	24	327	1338	1341	S	328	the	the	the	DT	O	det	O	-1	O
+3	24	328	1342	1347	S	329	giant	giant	giant	JJ	O	nsubj	O	-1	O
+3	24	329	1348	1351	S	-1	ate	ate	eat	VBD	O	null	O	-1	B-verb.consumption
+3	24	330	1352	1355	S	331	his	his	he	PRP$	O	poss	O	-1	O
+3	24	331	1356	1360	S	329	food	food	food	NN	O	dobj	O	-1	B-noun.food
+3	24	332	1361	1364	S	329	and	and	and	CC	O	cc	O	-1	O
+3	24	333	1365	1369	S	334	then	then	then	RB	O	advmod	O	-1	O
+3	24	334	1370	1374	S	329	went	went	go	VBD	O	conj	O	-1	B-verb.motion
+3	24	335	1375	1377	S	334	to	to	to	IN	O	prep	O	-1	O
+3	24	336	1378	1381	S	337	his	his	he	PRP$	O	poss	O	-1	O
+3	24	337	1382	1386		335	room	room	room	NN	O	pobj	O	-1	B-noun.artifact
+3	24	338	1386	1387	S	329	.	.	.	.	O	punct	O	-1	O
+3	25	339	1388	1390	S	340	He	He	he	PRP	O	nsubj	O	-1	O
+3	25	340	1391	1395	S	-1	took	took	take	VBD	O	null	O	-1	B-verb.contact
+3	25	341	1396	1399	S	340	out	out	out	RP	O	prt	O	-1	O
+3	25	342	1400	1403	S	343	his	his	he	PRP$	O	poss	O	-1	O
+3	25	343	1404	1409	S	340	sacks	sacks	sack	NNS	O	dobj	O	-1	B-noun.artifact
+3	25	344	1410	1412	S	343	of	of	of	IN	O	prep	O	-1	O
+3	25	345	1413	1417	S	346	gold	gold	gold	NN	O	nn	O	-1	B-noun.possession
+3	25	346	1418	1423		344	coins	coins	coin	NNS	O	pobj	O	-1	O
+3	25	347	1423	1424	S	340	,	,	,	,	O	punct	O	-1	O
+3	25	348	1425	1432	S	340	counted	counted	count	VBD	O	conj	O	-1	B-verb.communication
+3	25	349	1433	1437	S	348	them	them	they	PRP	O	dobj	O	-1	O
+3	25	350	1438	1441	S	340	and	and	and	CC	O	cc	O	-1	O
+3	25	351	1442	1446	S	340	kept	kept	keep	VBD	O	conj	O	-1	B-verb.stative
+3	25	352	1447	1451	S	351	them	them	they	PRP	O	dobj	O	-1	O
+3	25	353	1452	1457		351	aside	aside	aside	RB	O	advmod	O	-1	O
+3	25	354	1457	1458	S	340	.	.	.	.	O	punct	O	-1	O
+3	26	355	1459	1463	S	357	Then	Then	then	RB	O	advmod	O	-1	O
+3	26	356	1464	1466	S	357	he	he	he	PRP	O	nsubj	O	-1	O
+3	26	357	1467	1471	S	-1	went	went	go	VBD	O	null	O	-1	B-verb.stative
+3	26	358	1472	1474	S	357	to	to	to	IN	O	prep	O	-1	O
+3	26	359	1475	1480		358	sleep	sleep	sleep	NN	O	pobj	O	-1	B-noun.state
+3	26	360	1480	1481	S	357	.	.	.	.	O	punct	O	-1	O
+3	27	361	1482	1484	S	366	In	In	in	IN	O	prep	O	-1	O
+3	27	362	1485	1488	S	363	the	the	the	DT	O	det	O	-1	O
+3	27	363	1489	1494		361	night	night	night	NN	TIME	pobj	O	-1	B-noun.time
+3	27	364	1494	1495	S	366	,	,	,	,	O	punct	O	-1	O
+3	27	365	1496	1500	S	366	Jack	Jack	Jack	NNP	PERSON	nsubj	O	0	B-noun.person
+3	27	366	1501	1506	S	-1	crept	crept	creep	VBD	O	null	O	-1	B-verb.motion
+3	27	367	1507	1510	S	368	out	out	out	RB	O	dep	O	-1	O
+3	27	368	1511	1513	S	366	of	of	of	IN	O	prep	O	-1	O
+3	27	369	1514	1517	S	371	his	his	he	PRP$	O	poss	O	0	O
+3	27	370	1518	1524	S	371	hiding	hiding	hiding	NN	O	nn	O	-1	B-noun.location
+3	27	371	1525	1530		368	place	place	place	NN	O	pobj	O	-1	I-noun.location
+3	27	372	1530	1531	S	366	,	,	,	,	O	punct	O	-1	O
+3	27	373	1532	1536	S	366	took	took	take	VBD	O	conj	O	-1	B-verb.contact
+3	27	374	1537	1540	S	375	one	one	one	CD	NUMBER	num	O	-1	O
+3	27	375	1541	1545	S	373	sack	sack	sack	NN	O	dobj	O	-1	B-noun.artifact
+3	27	376	1546	1548	S	375	of	of	of	IN	O	prep	O	-1	O
+3	27	377	1549	1553	S	378	gold	gold	gold	NN	O	nn	O	-1	B-noun.possession
+3	27	378	1554	1559	S	376	coins	coins	coin	NNS	O	pobj	O	-1	B-noun.possession
+3	27	379	1560	1563	S	366	and	and	and	CC	O	cc	O	-1	O
+3	27	380	1564	1571	S	366	climbed	climbed	climb	VBD	O	conj	O	-1	B-verb.motion
+3	27	381	1572	1576	S	380	down	down	down	IN	O	advmod	O	-1	O
+3	27	382	1577	1580	S	383	the	the	the	DT	O	det	O	-1	O
+3	27	383	1581	1590		381	beanstalk	beanstalk	beanstalk	NN	O	pobj	O	-1	B-noun.plant
+3	27	384	1590	1591	S	366	.	.	.	.	O	punct	O	-1	O
+3	28	385	1592	1594	S	389	At	At	at	IN	O	prep	O	-1	O
+3	28	386	1595	1599		385	home	home	home	NN	O	pobj	O	-1	B-noun.location
+3	28	387	1599	1600	S	389	,	,	,	,	O	punct	O	-1	O
+3	28	388	1601	1603	S	389	he	he	he	PRP	O	nsubj	O	0	O
+3	28	389	1604	1608	S	-1	gave	gave	give	VBD	O	null	O	-1	B-verb.possession
+3	28	390	1609	1612	S	391	the	the	the	DT	O	det	O	-1	O
+3	28	391	1613	1618	S	389	coins	coins	coin	NNS	O	dobj	O	-1	B-noun.possession
+3	28	392	1619	1621	S	389	to	to	to	IN	O	prep	O	-1	O
+3	28	393	1622	1625	S	394	his	his	he	PRP$	O	poss	O	0	O
+3	28	394	1626	1632		392	mother	mother	mother	NN	O	pobj	O	-1	B-noun.person
+3	28	395	1632	1633	S	389	.	.	.	.	O	punct	O	-1	O
+3	29	396	1634	1637	S	397	His	His	he	PRP$	O	poss	O	0	O
+3	29	397	1638	1644	S	400	mother	mother	mother	NN	O	nsubj	O	-1	B-noun.person
+3	29	398	1645	1648	S	400	was	was	be	VBD	O	cop	O	-1	B-verb.stative
+3	29	399	1649	1653	S	400	very	very	very	RB	O	advmod	O	-1	O
+3	29	400	1654	1659	S	-1	happy	happy	happy	JJ	O	null	O	-1	O
+3	29	401	1660	1663	S	400	and	and	and	CC	O	cc	O	-1	O
+3	29	402	1664	1668	S	403	they	they	they	PRP	O	nsubj	O	-1	O
+3	29	403	1669	1674	S	400	lived	lived	live	VBD	O	conj	O	-1	B-verb.stative
+3	29	404	1675	1679	S	403	well	well	well	RB	O	advmod	O	-1	O
+3	29	405	1680	1683	S	403	for	for	for	IN	O	prep	O	-1	O
+3	29	406	1684	1692		405	sometime	sometime	sometime	RB	O	pobj	O	-1	O
+3	29	407	1692	1693	NN	400	.	.	.	.	O	punct	O	-1	O
+4	30	408	1695	1699	S	-1	Jack	Jack	Jack	NNP	PERSON	null	O	0	B-noun.person
+4	30	409	1700	1703	S	408	and	and	and	CC	O	cc	O	-1	O
+4	30	410	1704	1707	S	413	the	the	the	DT	O	det	O	-1	O
+4	30	411	1708	1717	S	413	Beanstalk	Beanstalk	Beanstalk	NNP	MISC	nn	O	-1	O
+4	30	412	1718	1721	S	413	Fee	Fee	Fee	NNP	MISC	nn	O	-1	O
+4	30	413	1722	1724	S	408	Fi	Fi	Fi	NNP	MISC	conj	O	-1	O
+4	30	414	1725	1727	S	413	Fo	Fo	fo	IN	O	prep	O	-1	O
+4	30	415	1728	1739	S	417	Fum!Climbed	Fum!Climbed	Fum!Climbed	NNP	O	nn	O	-1	O
+4	30	416	1740	1743	S	417	the	the	the	DT	O	det	O	-1	O
+4	30	417	1744	1753	S	414	beanstalk	beanstalk	beanstalk	NN	O	pobj	O	-1	B-noun.plant
+4	30	418	1754	1757	S	408	and	and	and	CC	O	cc	O	-1	O
+4	30	419	1758	1762	S	408	went	went	go	VBD	O	conj	O	-1	B-verb.motion
+4	30	420	1763	1765	S	419	to	to	to	IN	O	prep	O	-1	O
+4	30	421	1766	1769	S	422	the	the	the	DT	O	det	O	-1	O
+4	30	422	1770	1775		424	giant	giant	giant	NN	O	poss	O	-1	B-noun.animal
+4	30	423	1775	1777	S	422	’s	’s	’s	POS	O	possessive	O	-1	O
+4	30	424	1778	1783	S	420	house	house	house	NN	O	pobj	O	-1	B-noun.artifact
+4	30	425	1784	1789		419	again	again	again	RB	O	advmod	O	-1	O
+4	30	426	1789	1790	S	408	.	.	.	.	O	punct	O	-1	O
+4	31	427	1791	1795	S	428	Once	Once	once	RB	DATE	advmod	O	-1	O
+4	31	428	1796	1801		431	again	again	again	RB	O	advmod	O	-1	O
+4	31	429	1801	1802	S	431	,	,	,	,	O	punct	O	-1	O
+4	31	430	1803	1807	S	431	Jack	Jack	Jack	NNP	PERSON	nsubj	O	0	B-noun.person
+4	31	431	1808	1813	S	-1	asked	asked	ask	VBD	O	null	O	-1	B-verb.communication
+4	31	432	1814	1817	S	433	the	the	the	DT	O	det	O	-1	O
+4	31	433	1818	1823		435	giant	giant	giant	NN	O	poss	O	-1	B-noun.animal
+4	31	434	1823	1825	S	433	’s	’s	’s	POS	O	possessive	O	-1	O
+4	31	435	1826	1830	S	431	wife	wife	wife	NN	O	dobj	O	-1	B-noun.person
+4	31	436	1831	1834	S	431	for	for	for	IN	O	prep	O	-1	O
+4	31	437	1835	1839		436	food	food	food	NN	O	pobj	O	-1	B-noun.food
+4	31	438	1839	1840	S	431	,	,	,	,	O	punct	O	-1	O
+4	31	439	1841	1844	S	431	but	but	but	CC	O	cc	O	-1	O
+4	31	440	1845	1850	S	443	while	while	while	IN	O	mark	O	-1	O
+4	31	441	1851	1853	S	443	he	he	he	PRP	O	nsubj	O	0	O
+4	31	442	1854	1857	S	443	was	was	be	VBD	O	aux	O	-1	O
+4	31	443	1858	1864	S	431	eating	eating	eat	VBG	O	conj	O	-1	B-verb.consumption
+4	31	444	1865	1868	S	445	the	the	the	DT	O	det	O	-1	O
+4	31	445	1869	1874	S	443	giant	giant	giant	NN	O	dobj	O	-1	B-noun.animal
+4	31	446	1875	1883		443	returned	returned	return	VBD	O	dep	O	-1	B-verb.motion
+4	31	447	1883	1884	S	431	.	.	.	.	O	punct	O	-1	O
+4	32	448	1885	1889	S	449	Jack	Jack	Jack	NNP	PERSON	nsubj	O	0	B-noun.person
+4	32	449	1890	1895	S	-1	leapt	leapt	leap	VBZ	O	null	O	-1	B-verb.motion
+4	32	450	1896	1898	S	449	up	up	up	RP	O	prt	O	-1	O
+4	32	451	1899	1901	S	449	in	in	in	IN	O	prep	O	-1	O
+4	32	452	1902	1908	S	451	fright	fright	fright	NN	O	pobj	O	-1	B-noun.feeling
+4	32	453	1909	1912	S	449	and	and	and	CC	O	cc	O	-1	O
+4	32	454	1913	1917	S	449	went	went	go	VBD	O	conj	O	-1	B-verb.motion
+4	32	455	1918	1921	S	454	and	and	and	CC	O	cc	O	-1	O
+4	32	456	1922	1925	S	454	hid	hid	hide	VBD	O	conj	O	-1	B-verb.perception
+4	32	457	1926	1931	S	456	under	under	under	IN	O	prep	O	-1	O
+4	32	458	1932	1935	S	459	the	the	the	DT	O	det	O	-1	O
+4	32	459	1936	1939		457	bed	bed	bed	NN	O	pobj	O	-1	B-noun.artifact
+4	32	460	1939	1940	S	449	.	.	.	.	O	punct	O	-1	O
+4	33	461	1941	1944	S	462	The	The	the	DT	O	det	O	-1	O
+4	33	462	1945	1950	S	463	giant	giant	giant	NN	O	nsubj	O	-1	B-noun.animal
+4	33	463	1951	1956		-1	cried	cried	cry	VBD	O	null	O	-1	O
+4	33	464	1956	1957	S	463	,	,	,	,	O	punct	O	-1	O
+4	33	465	1958	1959		473	“	“	``	``	O	punct	B-QUOTE	-1	O
+4	33	466	1959	1962		470	Fee	Fee	fee	NN	O	nn	I-QUOTE	-1	O
+4	33	467	1962	1963		470	-	-	-	HYPH	O	amod	I-QUOTE	-1	O
+4	33	468	1963	1967		470	fifo	fifo	fifo	NN	O	nn	I-QUOTE	-1	O
+4	33	469	1967	1968		470	-	-	-	HYPH	O	amod	I-QUOTE	-1	O
+4	33	470	1968	1971		473	fum	fum	fum	NN	O	nsubj	I-QUOTE	-1	O
+4	33	471	1971	1972	S	473	,	,	,	,	O	punct	I-QUOTE	-1	O
+4	33	472	1973	1974	S	473	I	I	I	PRP	O	nsubj	I-QUOTE	-1	O
+4	33	473	1975	1980	S	463	smell	smell	smell	VBP	O	ccomp	I-QUOTE	-1	B-verb.perception
+4	33	474	1981	1984	S	475	the	the	the	DT	O	det	I-QUOTE	-1	O
+4	33	475	1985	1990	S	473	blood	blood	blood	NN	O	dobj	I-QUOTE	-1	B-noun.body
+4	33	476	1991	1993	S	475	of	of	of	IN	O	prep	I-QUOTE	-1	O
+4	33	477	1994	1996	S	478	an	an	a	DT	O	det	I-QUOTE	-1	O
+4	33	478	1997	2007		476	Englishman	Englishman	Englishman	NNP	NATIONALITY	pobj	I-QUOTE	-1	B-noun.person
+4	33	479	2007	2008	S	463	.	.	.	.	O	punct	I-QUOTE	-1	O
+4	34	480	2009	2011	S	482	Be	Be	be	VB	O	cop	I-QUOTE	-1	O
+4	34	481	2012	2014	S	482	he	he	he	PRP	O	nsubj	I-QUOTE	-1	O
+4	34	482	2015	2020		491	alive	alive	alive	JJ	O	ccomp	I-QUOTE	-1	O
+4	34	483	2020	2021	S	482	,	,	,	,	O	punct	I-QUOTE	-1	O
+4	34	484	2022	2024	S	482	or	or	or	CC	O	cc	I-QUOTE	-1	O
+4	34	485	2025	2027	S	487	be	be	be	VB	O	cop	I-QUOTE	-1	B-verb.stative
+4	34	486	2028	2030	S	487	he	he	he	PRP	O	nsubj	I-QUOTE	-1	O
+4	34	487	2031	2035		482	dead	dead	dead	JJ	O	conj	I-QUOTE	-1	O
+4	34	488	2035	2036	S	491	,	,	,	,	O	punct	I-QUOTE	-1	O
+4	34	489	2037	2038		491	I	I	I	PRP	O	nsubj	I-QUOTE	-1	O
+4	34	490	2038	2041	S	491	’ll	’ll	’ll	MD	O	aux	I-QUOTE	-1	O
+4	34	491	2042	2047	S	-1	grind	grind	grind	VB	O	null	I-QUOTE	-1	B-verb.contact
+4	34	492	2048	2051	S	493	his	his	he	PRP$	O	poss	I-QUOTE	-1	O
+4	34	493	2052	2057	S	491	bones	bones	bone	NNS	O	dobj	I-QUOTE	-1	B-noun.body
+4	34	494	2058	2060	S	495	to	to	to	TO	O	aux	I-QUOTE	-1	O
+4	34	495	2061	2065	S	491	make	make	make	VB	O	xcomp	I-QUOTE	-1	B-verb.social
+4	34	496	2066	2068	S	497	my	my	my	PRP$	O	poss	I-QUOTE	-1	O
+4	34	497	2069	2074		495	bread	bread	bread	NN	O	dobj	I-QUOTE	-1	B-noun.food
+4	34	498	2074	2075		491	!	!	!	.	O	punct	I-QUOTE	-1	O
+4	34	499	2075	2076	S	491	”	”	''	''	O	punct	I-QUOTE	-1	O
+4	35	500	2077	2080	S	501	The	The	the	DT	O	det	O	-1	O
+4	35	501	2081	2085	S	502	wife	wife	wife	NN	O	nsubj	O	-1	B-noun.person
+4	35	502	2086	2090		-1	said	said	say	VBD	O	null	O	-1	B-verb.communication
+4	35	503	2090	2091	S	502	,	,	,	,	O	punct	O	-1	O
+4	35	504	2092	2093		502	“	“	``	``	O	punct	B-QUOTE	-1	O
+4	35	505	2093	2098	S	506	There	There	there	EX	O	expl	I-QUOTE	-1	O
+4	35	506	2099	2101	S	502	is	is	be	VBZ	O	ccomp	I-QUOTE	-1	B-verb.stative
+4	35	507	2102	2104	S	508	no	no	no	DT	O	det	I-QUOTE	-1	O
+4	35	508	2105	2108	S	506	boy	boy	boy	NN	O	nsubj	I-QUOTE	-1	B-noun.person
+4	35	509	2109	2111	S	506	in	in	in	IN	O	prep	I-QUOTE	-1	O
+4	35	510	2112	2116		509	here	here	here	RB	O	pobj	I-QUOTE	-1	O
+4	35	511	2116	2117		502	!	!	!	.	O	punct	I-QUOTE	-1	O
+4	35	512	2117	2118	S	502	”	”	''	''	O	punct	I-QUOTE	-1	O
+4	36	513	2119	2122	S	514	The	The	the	DT	O	det	O	-1	O
+4	36	514	2123	2128	S	515	giant	giant	giant	JJ	O	nsubj	O	-1	O
+4	36	515	2129	2132	S	-1	ate	ate	eat	VBD	O	null	O	-1	B-verb.consumption
+4	36	516	2133	2136	S	517	his	his	he	PRP$	O	poss	O	-1	O
+4	36	517	2137	2141	S	515	food	food	food	NN	O	dobj	O	-1	B-noun.food
+4	36	518	2142	2145	S	515	and	and	and	CC	O	cc	O	-1	O
+4	36	519	2146	2150	S	515	went	went	go	VBD	O	conj	O	-1	B-verb.motion
+4	36	520	2151	2153	S	519	to	to	to	IN	O	prep	O	-1	O
+4	36	521	2154	2157	S	522	his	his	he	PRP$	O	poss	O	-1	O
+4	36	522	2158	2162		520	room	room	room	NN	O	pobj	O	-1	B-noun.artifact
+4	36	523	2162	2163	S	515	.	.	.	.	O	punct	O	-1	O
+4	37	524	2164	2169		527	There	There	there	RB	O	advmod	O	-1	O
+4	37	525	2169	2170	S	527	,	,	,	,	O	punct	O	-1	O
+4	37	526	2171	2173	S	527	he	he	he	PRP	O	nsubj	O	-1	O
+4	37	527	2174	2178	S	-1	took	took	take	VBD	O	null	O	-1	B-verb.contact
+4	37	528	2179	2182	S	527	out	out	out	RP	O	prt	O	-1	O
+4	37	529	2183	2184	S	530	a	a	a	DT	O	det	O	-1	O
+4	37	530	2185	2188		527	hen	hen	hen	NN	O	dobj	O	-1	B-noun.animal
+4	37	531	2188	2189	S	527	.	.	.	.	O	punct	O	-1	O
+4	38	532	2190	2192	S	533	He	He	he	PRP	O	nsubj	O	-1	O
+4	38	533	2193	2200		-1	shouted	shouted	shout	VBD	O	null	O	-1	B-verb.communication
+4	38	534	2200	2201	S	533	,	,	,	,	O	punct	O	-1	O
+4	38	535	2202	2203		533	“	“	``	``	O	punct	B-QUOTE	-1	O
+4	38	536	2203	2206		533	Lay	Lay	Lay	NNP	O	dobj	I-QUOTE	-1	O
+4	38	537	2206	2207		533	!	!	!	.	O	punct	I-QUOTE	-1	O
+4	38	538	2207	2208	S	533	”	”	''	''	O	punct	I-QUOTE	-1	O
+4	39	539	2209	2212	S	542	and	and	and	CC	O	cc	O	-1	O
+4	39	540	2213	2216	S	541	the	the	the	DT	O	det	O	-1	O
+4	39	541	2217	2220	S	542	hen	hen	hen	NN	O	nsubj	O	-1	B-noun.animal
+4	39	542	2221	2225	S	-1	laid	laid	lay	VBD	O	null	O	-1	B-verb.contact
+4	39	543	2226	2227	S	545	a	a	a	DT	O	det	O	-1	O
+4	39	544	2228	2234	S	545	golden	golden	golden	JJ	O	amod	O	-1	O
+4	39	545	2235	2238		542	egg	egg	egg	NN	O	dobj	O	-1	B-noun.animal
+4	39	546	2238	2239	S	542	.	.	.	.	O	punct	O	-1	O
+4	40	547	2240	2244	S	550	When	When	when	WRB	O	advmod	O	-1	O
+4	40	548	2245	2248	S	549	the	the	the	DT	O	det	O	-1	O
+4	40	549	2249	2254	S	550	giant	giant	giant	NN	O	nsubj	O	-1	B-noun.animal
+4	40	550	2255	2259	S	554	fell	fell	fall	VBD	O	dep	O	-1	B-verb.motion
+4	40	551	2260	2266		550	asleep	asleep	asleep	RB	O	advmod	O	-1	O
+4	40	552	2266	2267	S	554	,	,	,	,	O	punct	O	-1	O
+4	40	553	2268	2272	S	554	Jack	Jack	Jack	NNP	PERSON	nsubj	O	0	B-noun.person
+4	40	554	2273	2277	S	-1	took	took	take	VBD	O	null	O	-1	B-verb.motion
+4	40	555	2278	2281	S	556	the	the	the	DT	O	det	O	-1	O
+4	40	556	2282	2285	S	554	hen	hen	hen	NN	O	dobj	O	-1	B-noun.animal
+4	40	557	2286	2289	S	554	and	and	and	CC	O	cc	O	-1	O
+4	40	558	2290	2297	S	554	climbed	climbed	climb	VBD	O	conj	O	-1	B-verb.motion
+4	40	559	2298	2302	S	558	down	down	down	IN	O	advmod	O	-1	O
+4	40	560	2303	2306	S	561	the	the	the	DT	O	det	O	-1	O
+4	40	561	2307	2316		559	beanstalk	beanstalk	beanstalk	NN	O	pobj	O	-1	B-noun.plant
+4	40	562	2316	2317	S	554	.	.	.	.	O	punct	O	-1	O
+4	41	563	2318	2322		565	Jack	Jack	Jack	NNP	PERSON	poss	O	0	B-noun.person
+4	41	564	2322	2324	S	563	’s	’s	’s	POS	O	possessive	O	-1	O
+4	41	565	2325	2331	S	568	mother	mother	mother	NN	O	nsubj	O	-1	B-noun.person
+4	41	566	2332	2335	S	568	was	was	be	VBD	O	cop	O	-1	B-verb.stative
+4	41	567	2336	2340	S	568	very	very	very	RB	O	advmod	O	-1	O
+4	41	568	2341	2346	S	-1	happy	happy	happy	JJ	O	null	O	-1	O
+4	41	569	2347	2351	S	568	with	with	with	IN	O	prep	O	-1	O
+4	41	570	2352	2355		569	him	him	he	PRP	O	pobj	O	0	O
+4	41	571	2355	2356	NN	568	.	.	.	.	O	punct	O	-1	O
+5	42	572	2358	2363	S	579	After	After	after	IN	O	prep	O	-1	O
+5	42	573	2364	2368	S	574	some	some	some	DT	O	det	O	-1	O
+5	42	574	2369	2373		572	days	days	day	NNS	DURATION	pobj	O	-1	B-noun.time
+5	42	575	2373	2374	S	579	,	,	,	,	O	punct	O	-1	O
+5	42	576	2375	2379	S	579	Jack	Jack	Jack	NNP	PERSON	nsubj	O	0	B-noun.person
+5	42	577	2380	2384	S	578	once	once	once	RB	DATE	advmod	O	-1	O
+5	42	578	2385	2390	S	579	again	again	again	RB	O	advmod	O	-1	O
+5	42	579	2391	2398	S	-1	climbed	climbed	climb	VBD	O	null	O	-1	B-verb.motion
+5	42	580	2399	2402	S	581	the	the	the	DT	O	det	O	-1	O
+5	42	581	2403	2412	S	579	beanstalk	beanstalk	beanstalk	NN	O	dobj	O	-1	B-noun.plant
+5	42	582	2413	2416	S	579	and	and	and	CC	O	cc	O	-1	O
+5	42	583	2417	2421	S	579	went	went	go	VBD	O	conj	O	-1	B-verb.motion
+5	42	584	2422	2424	S	583	to	to	to	IN	O	prep	O	-1	O
+5	42	585	2425	2428	S	586	the	the	the	DT	O	det	O	-1	O
+5	42	586	2429	2434		588	giant	giant	giant	NN	O	poss	O	-1	B-noun.animal
+5	42	587	2434	2436	S	586	’s	’s	’s	POS	O	possessive	O	-1	O
+5	42	588	2437	2443		584	castle	castle	castle	NN	O	pobj	O	-1	B-noun.artifact
+5	42	589	2443	2444	S	579	.	.	.	.	O	punct	O	-1	O
+5	43	590	2445	2448	S	596	For	For	for	IN	O	prep	O	-1	O
+5	43	591	2449	2452	S	593	the	the	the	DT	O	det	O	-1	O
+5	43	592	2453	2458	S	593	third	third	third	JJ	ORDINAL	amod	O	-1	O
+5	43	593	2459	2463		590	time	time	time	NN	O	pobj	O	-1	B-noun.time
+5	43	594	2463	2464	S	596	,	,	,	,	O	punct	O	-1	O
+5	43	595	2465	2469	S	596	Jack	Jack	Jack	NNP	PERSON	nsubj	O	0	B-noun.person
+5	43	596	2470	2473	S	-1	met	met	meet	VBD	O	null	O	-1	B-verb.motion
+5	43	597	2474	2477	S	598	the	the	the	DT	O	det	O	-1	O
+5	43	598	2478	2483		600	giant	giant	giant	NN	O	poss	O	-1	B-noun.animal
+5	43	599	2483	2485	S	598	’s	’s	’s	POS	O	possessive	O	-1	O
+5	43	600	2486	2490	S	596	wife	wife	wife	NN	O	dobj	O	-1	B-noun.person
+5	43	601	2491	2494	S	596	and	and	and	CC	O	cc	O	-1	O
+5	43	602	2495	2500	S	596	asked	asked	ask	VBD	O	conj	O	-1	B-verb.communication
+5	43	603	2501	2504	S	602	for	for	for	IN	O	prep	O	-1	O
+5	43	604	2505	2509	S	605	some	some	some	DT	O	det	O	-1	O
+5	43	605	2510	2514		603	food	food	food	NN	O	pobj	O	-1	B-noun.food
+5	43	606	2514	2515	S	596	.	.	.	.	O	punct	O	-1	O
+5	44	607	2516	2520	S	608	Once	Once	once	RB	DATE	advmod	O	-1	O
+5	44	608	2521	2526		614	again	again	again	RB	O	advmod	O	-1	O
+5	44	609	2526	2527	S	614	,	,	,	,	O	punct	O	-1	O
+5	44	610	2528	2531	S	611	the	the	the	DT	O	det	O	-1	O
+5	44	611	2532	2537		613	giant	giant	giant	NN	O	poss	O	-1	B-noun.animal
+5	44	612	2537	2539	S	611	’s	’s	’s	POS	O	possessive	O	-1	O
+5	44	613	2540	2544	S	614	wife	wife	wife	NN	O	nsubj	O	-1	B-noun.person
+5	44	614	2545	2549	S	-1	gave	gave	give	VBD	O	null	O	-1	B-verb.possession
+5	44	615	2550	2553	S	614	him	him	he	PRP	O	iobj	O	0	O
+5	44	616	2554	2559	S	614	bread	bread	bread	NN	O	dobj	O	-1	B-noun.food
+5	44	617	2560	2563	S	616	and	and	and	CC	O	cc	O	-1	O
+5	44	618	2564	2568		616	milk	milk	milk	NN	O	conj	O	-1	B-noun.food
+5	44	619	2568	2569	S	614	.	.	.	.	O	punct	O	-1	O
+5	45	620	2570	2573	S	628	But	But	but	CC	O	cc	O	-1	O
+5	45	621	2574	2579	S	624	while	while	while	IN	O	mark	O	-1	O
+5	45	622	2580	2584	S	624	Jack	Jack	Jack	NNP	PERSON	nsubj	O	0	B-noun.person
+5	45	623	2585	2588	S	624	was	was	be	VBD	O	aux	O	-1	O
+5	45	624	2589	2595		628	eating	eating	eat	VBG	O	conj	O	-1	B-verb.consumption
+5	45	625	2595	2596	S	628	,	,	,	,	O	punct	O	-1	O
+5	45	626	2597	2600	S	627	the	the	the	DT	O	det	O	-1	O
+5	45	627	2601	2606	S	628	giant	giant	giant	NN	O	nsubj	O	-1	B-noun.animal
+5	45	628	2607	2611	S	-1	came	came	come	VBD	O	null	O	-1	B-verb.motion
+5	45	629	2612	2616		628	home	home	home	RB	O	advmod	O	-1	O
+5	45	630	2616	2617	S	628	.	.	.	.	O	punct	O	-1	O
+5	46	631	2618	2619		-1	“	“	``	``	O	null	B-QUOTE	-1	O
+5	46	632	2619	2622		641	Fee	Fee	fee	NN	O	dep	I-QUOTE	-1	O
+5	46	633	2622	2623		632	-	-	-	HYPH	O	dep	I-QUOTE	-1	O
+5	46	634	2623	2625		635	fi	fi	fi	NN	O	nn	I-QUOTE	-1	O
+5	46	635	2625	2626		633	-	-	-	HYPH	O	dobj	I-QUOTE	-1	O
+5	46	636	2626	2628		635	fo	fo	fo	IN	O	prep	I-QUOTE	-1	O
+5	46	637	2628	2629		638	-	-	-	HYPH	O	amod	I-QUOTE	-1	O
+5	46	638	2629	2632		636	fum	fum	fum	NN	O	pobj	I-QUOTE	-1	O
+5	46	639	2632	2633	S	641	,	,	,	,	O	punct	I-QUOTE	-1	O
+5	46	640	2634	2635	S	641	I	I	I	PRP	O	nsubj	I-QUOTE	-1	O
+5	46	641	2636	2641	S	631	smell	smell	smell	VBP	O	dep	I-QUOTE	-1	B-verb.perception
+5	46	642	2642	2645	S	643	the	the	the	DT	O	det	I-QUOTE	-1	O
+5	46	643	2646	2651	S	641	blood	blood	blood	NN	O	dobj	I-QUOTE	-1	B-noun.body
+5	46	644	2652	2654	S	643	of	of	of	IN	O	prep	I-QUOTE	-1	O
+5	46	645	2655	2657	S	646	an	an	a	DT	O	det	I-QUOTE	-1	O
+5	46	646	2658	2668		644	Englishman	Englishman	Englishman	NNP	NATIONALITY	pobj	I-QUOTE	-1	B-noun.person
+5	46	647	2668	2669	S	631	.	.	.	.	O	punct	I-QUOTE	-1	O
+5	47	648	2670	2672	S	650	Be	Be	be	VB	O	cop	I-QUOTE	-1	O
+5	47	649	2673	2675	S	650	he	he	he	PRP	O	nsubj	I-QUOTE	-1	O
+5	47	650	2676	2681		659	alive	alive	alive	JJ	O	ccomp	I-QUOTE	-1	O
+5	47	651	2681	2682	S	650	,	,	,	,	O	punct	I-QUOTE	-1	O
+5	47	652	2683	2685	S	650	or	or	or	CC	O	cc	I-QUOTE	-1	O
+5	47	653	2686	2688	S	655	be	be	be	VB	O	cop	I-QUOTE	-1	B-verb.stative
+5	47	654	2689	2691	S	655	he	he	he	PRP	O	nsubj	I-QUOTE	-1	O
+5	47	655	2692	2696		650	dead	dead	dead	JJ	O	conj	I-QUOTE	-1	O
+5	47	656	2696	2697	S	659	,	,	,	,	O	punct	I-QUOTE	-1	O
+5	47	657	2698	2699		659	I	I	I	PRP	O	nsubj	I-QUOTE	-1	O
+5	47	658	2699	2702	S	659	’ll	’ll	’ll	MD	O	aux	I-QUOTE	-1	O
+5	47	659	2703	2708	S	-1	grind	grind	grind	VB	O	null	I-QUOTE	-1	B-verb.contact
+5	47	660	2709	2712	S	661	his	his	he	PRP$	O	poss	I-QUOTE	-1	O
+5	47	661	2713	2718	S	659	bones	bones	bone	NNS	O	dobj	I-QUOTE	-1	B-noun.body
+5	47	662	2719	2721	S	663	to	to	to	TO	O	aux	I-QUOTE	-1	O
+5	47	663	2722	2726	S	659	make	make	make	VB	O	xcomp	I-QUOTE	-1	B-verb.social
+5	47	664	2727	2729	S	665	my	my	my	PRP$	O	poss	I-QUOTE	-1	O
+5	47	665	2730	2735		663	bread	bread	bread	NN	O	dobj	I-QUOTE	-1	B-noun.food
+5	47	666	2735	2736		659	!	!	!	.	O	punct	I-QUOTE	-1	O
+5	47	667	2736	2737	S	659	”	”	''	''	O	punct	I-QUOTE	-1	O
+5	48	668	2738	2743	S	-1	cried	cried	cry	VBD	O	null	O	-1	B-verb.communication
+5	48	669	2744	2747	S	670	the	the	the	DT	O	det	O	-1	O
+5	48	670	2748	2753		668	giant	giant	giant	NN	O	dobj	O	-1	B-noun.animal
+5	48	671	2753	2754	S	668	.	.	.	.	O	punct	O	-1	O
+5	49	672	2755	2756		676	“	“	``	``	O	punct	B-QUOTE	-1	O
+5	49	673	2756	2758		676	Do	Do	do	VBP	O	aux	I-QUOTE	-1	O
+5	49	674	2758	2761	S	676	n’t	n’t	n’t	RB	O	advmod	I-QUOTE	-1	O
+5	49	675	2762	2764	S	676	be	be	be	VB	O	cop	I-QUOTE	-1	B-verb.stative
+5	49	676	2765	2770		-1	silly	silly	silly	JJ	O	null	I-QUOTE	-1	O
+5	49	677	2770	2771	S	676	!	!	!	.	O	punct	I-QUOTE	-1	O
+5	50	678	2772	2777	S	679	There	There	there	EX	O	expl	I-QUOTE	-1	O
+5	50	679	2778	2780	S	-1	is	is	be	VBZ	O	null	I-QUOTE	-1	B-verb.stative
+5	50	680	2781	2783	S	681	no	no	no	DT	O	det	I-QUOTE	-1	O
+5	50	681	2784	2787	S	679	boy	boy	boy	NN	O	nsubj	I-QUOTE	-1	B-noun.person
+5	50	682	2788	2790	S	679	in	in	in	IN	O	prep	I-QUOTE	-1	O
+5	50	683	2791	2795		682	here	here	here	RB	O	pobj	I-QUOTE	-1	O
+5	50	684	2795	2796		679	!	!	!	.	O	punct	I-QUOTE	-1	O
+5	50	685	2796	2797	S	679	”	”	''	''	O	punct	I-QUOTE	-1	O
+5	51	686	2798	2802	S	-1	said	said	say	VBD	O	null	O	-1	B-verb.communication
+5	51	687	2803	2806	S	688	his	his	he	PRP$	O	poss	O	-1	O
+5	51	688	2807	2811		686	wife	wife	wife	NN	O	nsubj	O	-1	B-noun.person
+5	51	689	2811	2812	NN	686	.	.	.	.	O	punct	O	-1	O
+6	52	690	2814	2817	S	691	The	The	the	DT	O	det	O	-1	O
+6	52	691	2818	2823	S	692	giant	giant	giant	NN	O	nsubj	O	-1	B-noun.animal
+6	52	692	2824	2827	S	-1	had	had	have	VBD	O	null	O	-1	B-verb.possession
+6	52	693	2828	2829	S	695	a	a	a	DT	O	det	O	-1	O
+6	52	694	2830	2837	S	695	magical	magical	magical	JJ	O	amod	O	-1	O
+6	52	695	2838	2842	S	692	harp	harp	harp	NN	O	dobj	O	-1	B-noun.artifact
+6	52	696	2843	2847	S	698	that	that	that	WDT	O	nsubj	O	-1	O
+6	52	697	2848	2853	S	698	could	could	could	MD	O	aux	O	-1	O
+6	52	698	2854	2858	S	695	play	play	play	VB	O	rcmod	O	-1	B-verb.competition
+6	52	699	2859	2868	S	700	beautiful	beautiful	beautiful	JJ	O	amod	O	-1	O
+6	52	700	2869	2874		698	songs	songs	song	NNS	O	dobj	O	-1	B-noun.communication
+6	52	701	2874	2875	S	692	.	.	.	.	O	punct	O	-1	O
+6	53	702	2876	2881	S	705	While	While	while	IN	O	mark	O	-1	O
+6	53	703	2882	2885	S	704	the	the	the	DT	O	det	O	-1	O
+6	53	704	2886	2891	S	705	giant	giant	giant	NN	O	nsubj	O	-1	B-noun.animal
+6	53	705	2892	2897		708	slept	slept	sleep	VBD	O	advcl	O	-1	B-verb.body
+6	53	706	2897	2898	S	708	,	,	,	,	O	punct	O	-1	O
+6	53	707	2899	2903	S	708	Jack	Jack	Jack	NNP	PERSON	nsubj	O	0	B-noun.person
+6	53	708	2904	2908	S	-1	took	took	take	VBD	O	null	O	-1	B-verb.motion
+6	53	709	2909	2912	S	710	the	the	the	DT	O	det	O	-1	O
+6	53	710	2913	2917	S	708	harp	harp	harp	NN	O	dobj	O	-1	B-noun.artifact
+6	53	711	2918	2921	S	708	and	and	and	CC	O	cc	O	-1	O
+6	53	712	2922	2925	S	715	was	was	be	VBD	O	cop	O	-1	B-verb.stative
+6	53	713	2926	2931	S	715	about	about	about	RB	O	advmod	O	-1	O
+6	53	714	2932	2934	S	715	to	to	to	TO	O	aux	O	-1	O
+6	53	715	2935	2940		708	leave	leave	leave	VB	O	conj	O	-1	B-verb.motion
+6	53	716	2940	2941	S	708	.	.	.	.	O	punct	O	-1	O
+6	54	717	2942	2950		722	Suddenly	Suddenly	suddenly	RB	O	advmod	O	-1	O
+6	54	718	2950	2951	S	722	,	,	,	,	O	punct	O	-1	O
+6	54	719	2952	2955	S	721	the	the	the	DT	O	det	O	-1	O
+6	54	720	2956	2961	S	721	magic	magic	magic	JJ	O	amod	O	-1	O
+6	54	721	2962	2966	S	722	harp	harp	harp	NN	O	nsubj	O	-1	B-noun.artifact
+6	54	722	2967	2972		-1	cried	cried	cry	VBD	O	null	O	-1	O
+6	54	723	2972	2973	S	722	,	,	,	,	O	punct	O	-1	O
+6	54	724	2974	2975		722	“	“	``	``	O	punct	B-QUOTE	-1	O
+6	54	725	2975	2979	S	722	Help	Help	help	VB	O	xcomp	I-QUOTE	-1	O
+6	54	726	2980	2986		725	master	master	master	NN	O	dobj	I-QUOTE	-1	B-noun.person
+6	54	727	2986	2987	S	722	!	!	!	.	O	punct	I-QUOTE	-1	O
+6	55	728	2988	2989	S	729	A	A	a	DT	O	det	I-QUOTE	-1	O
+6	55	729	2990	2993	S	731	boy	boy	boy	NN	O	nsubj	I-QUOTE	-1	B-noun.person
+6	55	730	2994	2996	S	731	is	is	be	VBZ	O	aux	I-QUOTE	-1	O
+6	55	731	2997	3005	S	-1	stealing	stealing	steal	VBG	O	null	I-QUOTE	-1	B-verb.possession
+6	55	732	3006	3008		731	me	me	I	PRP	O	dobj	I-QUOTE	-1	O
+6	55	733	3008	3009		731	!	!	!	.	O	punct	I-QUOTE	-1	O
+6	55	734	3009	3010	S	731	”	”	''	''	O	punct	I-QUOTE	-1	O
+6	56	735	3011	3014	S	736	The	The	the	DT	O	det	O	-1	O
+6	56	736	3015	3020	S	737	giant	giant	giant	JJ	O	nsubj	O	-1	O
+6	56	737	3021	3025	S	-1	woke	woke	wake	VBD	O	null	O	-1	B-verb.body
+6	56	738	3026	3028	S	737	up	up	up	RP	O	prt	O	-1	O
+6	56	739	3029	3032	S	737	and	and	and	CC	O	cc	O	-1	O
+6	56	740	3033	3036	S	737	saw	saw	see	VBD	O	conj	O	-1	B-verb.perception
+6	56	741	3037	3041	S	740	Jack	Jack	Jack	NNP	PERSON	dobj	O	0	B-noun.person
+6	56	742	3042	3046	S	740	with	with	with	IN	O	prep	O	-1	O
+6	56	743	3047	3050	S	744	the	the	the	DT	O	det	O	-1	O
+6	56	744	3051	3055		742	harp	harp	harp	NN	O	pobj	O	-1	B-noun.artifact
+6	56	745	3055	3056	S	737	.	.	.	.	O	punct	O	-1	O
+6	57	746	3057	3064		749	Furious	Furious	furious	JJ	O	ccomp	O	-1	O
+6	57	747	3064	3065	S	749	,	,	,	,	O	punct	O	-1	O
+6	57	748	3066	3068	S	749	he	he	he	PRP	O	nsubj	O	0	O
+6	57	749	3069	3072	S	-1	ran	ran	run	VBD	O	null	O	-1	B-verb.motion
+6	57	750	3073	3078	S	749	after	after	after	IN	O	prep	O	-1	O
+6	57	751	3079	3083		750	Jack	Jack	Jack	NNP	PERSON	pobj	O	0	B-noun.person
+6	57	752	3083	3084	S	749	.	.	.	.	O	punct	O	-1	O
+6	58	753	3085	3088	S	757	But	But	but	CC	O	cc	O	-1	O
+6	58	754	3089	3093	S	757	Jack	Jack	Jack	NNP	PERSON	nsubj	O	0	B-noun.person
+6	58	755	3094	3097	S	757	was	was	be	VBD	O	cop	O	-1	B-verb.stative
+6	58	756	3098	3101	S	757	too	too	too	RB	O	advmod	O	-1	O
+6	58	757	3102	3106	S	-1	fast	fast	fast	JJ	O	null	O	-1	O
+6	58	758	3107	3110	S	757	for	for	for	IN	O	prep	O	-1	O
+6	58	759	3111	3114		758	him	him	he	PRP	O	pobj	O	0	O
+6	58	760	3114	3115	S	757	.	.	.	.	O	punct	O	-1	O
+6	59	761	3116	3118	S	762	He	He	he	PRP	O	nsubj	O	0	O
+6	59	762	3119	3122	S	-1	ran	ran	run	VBD	O	null	O	-1	B-verb.motion
+6	59	763	3123	3127	S	762	down	down	down	RP	O	prt	O	-1	O
+6	59	764	3128	3131	S	765	the	the	the	DT	O	det	O	-1	O
+6	59	765	3132	3141	S	762	beanstalk	beanstalk	beanstalk	NN	O	dobj	O	-1	B-noun.plant
+6	59	766	3142	3145	S	762	and	and	and	CC	O	cc	O	-1	O
+6	59	767	3146	3153	S	762	reached	reached	reach	VBD	O	conj	O	-1	B-verb.motion
+6	59	768	3154	3158		767	home	home	home	NN	O	dobj	O	-1	B-noun.location
+6	59	769	3158	3159	S	762	.	.	.	.	O	punct	O	-1	O
+6	60	770	3160	3163	S	771	The	The	the	DT	O	det	O	-1	O
+6	60	771	3164	3169	S	772	giant	giant	giant	NN	O	nsubj	O	-1	B-noun.animal
+6	60	772	3170	3178	S	-1	followed	followed	follow	VBD	O	null	O	-1	B-verb.motion
+6	60	773	3179	3182	S	772	him	him	he	PRP	O	dobj	O	0	O
+6	60	774	3183	3187		772	down	down	down	RP	O	prt	O	-1	O
+6	60	775	3187	3188	S	772	.	.	.	.	O	punct	O	-1	O
+6	61	776	3189	3193	S	778	Jack	Jack	Jack	NNP	PERSON	nsubj	O	0	B-noun.person
+6	61	777	3194	3201	S	778	quickly	quickly	quickly	RB	O	advmod	O	-1	O
+6	61	778	3202	3205	S	-1	ran	ran	run	VBD	O	null	O	-1	B-verb.motion
+6	61	779	3206	3212	S	778	inside	inside	inside	IN	O	prep	O	-1	O
+6	61	780	3213	3216	S	781	his	his	he	PRP$	O	poss	O	0	O
+6	61	781	3217	3222	S	779	house	house	house	NN	O	pobj	O	-1	B-noun.artifact
+6	61	782	3223	3226	S	778	and	and	and	CC	O	cc	O	-1	O
+6	61	783	3227	3234	S	778	fetched	fetched	fetch	VBD	O	conj	O	-1	B-verb.contact
+6	61	784	3235	3237	S	785	an	an	a	DT	O	det	O	-1	O
+6	61	785	3238	3241		783	axe	axe	axe	NN	O	dobj	O	-1	B-noun.artifact
+6	61	786	3241	3242	S	778	.	.	.	.	O	punct	O	-1	O
+6	62	787	3243	3245	S	788	He	He	he	PRP	O	nsubj	O	0	O
+6	62	788	3246	3251	S	-1	began	began	begin	VBD	O	null	O	-1	B-verb.change
+6	62	789	3252	3254	S	790	to	to	to	TO	O	aux	O	-1	O
+6	62	790	3255	3259	S	788	chop	chop	chop	VB	O	xcomp	O	-1	B-verb.contact
+6	62	791	3260	3263	S	792	the	the	the	DT	O	det	O	-1	O
+6	62	792	3264	3273		790	beanstalk	beanstalk	beanstalk	NN	O	dobj	O	-1	B-noun.plant
+6	62	793	3273	3274	S	788	.	.	.	.	O	punct	O	-1	O
+6	63	794	3275	3278	S	795	The	The	the	DT	O	det	O	-1	O
+6	63	795	3279	3284	S	796	giant	giant	giant	NN	O	nsubj	O	-1	B-noun.animal
+6	63	796	3285	3289	S	-1	fell	fell	fall	VBD	O	null	O	-1	B-verb.motion
+6	63	797	3290	3293	S	796	and	and	and	CC	O	cc	O	-1	O
+6	63	798	3294	3298		796	died	died	die	VBD	O	conj	O	-1	B-verb.change
+6	63	799	3298	3299	NN	796	.	.	.	.	O	punct	O	-1	O
+7	64	800	3301	3305	S	807	Jack	Jack	Jack	NNP	PERSON	nsubj	O	0	B-noun.person
+7	64	801	3306	3309	S	800	and	and	and	CC	O	cc	O	-1	O
+7	64	802	3310	3313	S	803	his	his	he	PRP$	O	poss	O	0	O
+7	64	803	3314	3320	S	800	mother	mother	mother	NN	O	conj	O	-1	B-noun.person
+7	64	804	3321	3325	S	807	were	were	be	VBD	O	cop	O	-1	B-verb.stative
+7	64	805	3326	3329	S	807	now	now	now	RB	DATE	advmod	O	-1	O
+7	64	806	3330	3334	S	807	very	very	very	RB	O	advmod	O	-1	O
+7	64	807	3335	3339	S	-1	rich	rich	rich	JJ	O	null	O	-1	O
+7	64	808	3340	3343	S	807	and	and	and	CC	O	cc	O	-1	O
+7	64	809	3344	3348	S	810	they	they	they	PRP	O	nsubj	O	-1	O
+7	64	810	3349	3354	S	807	lived	lived	live	VBD	O	conj	O	-1	B-verb.stative
+7	64	811	3355	3362	S	813	happily	happily	happily	RB	O	advmod	O	-1	O
+7	64	812	3363	3367	S	813	ever	ever	ever	RB	O	advmod	O	-1	O
+7	64	813	3368	3373		810	after	after	after	RB	O	advmod	O	-1	O
+7	64	814	3373	3374	N	807	.	.	.	.	O	punct	O	-1	O
